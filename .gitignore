@@ -1,0 +1,23 @@
+# --- Dependencies and External Frameworks ---
+external_tools/
+
+# --- Documents and Large Binaries ---
+*.pdf
+*.docx
+
+# --- MATLAB Files ---
+*.asv
+*.asv.*
+*.autosave
+/logs/
+*.p
+*.mex*
+
+# --- Simulation and Data Output  ---
+*.mat
+sim_results/
+data/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
